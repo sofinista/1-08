@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No entra loleros</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+</head>
+<body>
+    <main>
+        <form action="" class="formulario" id="formulario">
+            <!--usuario-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="usuario" class="label_usuario">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="usuario" id="usuario" placeholder="Ana234">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">El usuario solo puede tener entre 4 y 16 digitos y solo puede contener letras, números y guión bajo</p>
+            </div>
+            <!--nombre-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="nombre" class="label_nombre">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="Juan Pablo">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">El nombre solo puede contener letras</p>
+            </div>
+            <!--contraseña 1-->
+            <div class="formulario_grupo" id="grupo_contraseña1">
+                <label for="contraseña1" class="label_contraseña1">Contraseña</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="contraseña1" id="contraseña1" placeholder=" Villada">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">Entre 4 y 12 caracteres, numero letras y mayusculas</p>
+            </div>
+            <!--contraseña 2-->
+            <div class="formulario_contraseña2" id="grupo_contraseña2">
+                <label for="Contraseña2" class="label_contraseña2">Usuario</label>
+                  <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="usuario" id="contraseña" placeholder="Villada">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">Confirme su contraseña</p>
+            </div>
+            <!--correo-->
+            <div class="formulario_grupo" id="grupo_correo">
+                <label for="correo" class="label_correo">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="correo" id="correo" placeholder="sof@gmail.com">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">Deebe contener un @gmail.com</p>
+            </div>
+            <!--telefono-->
+            <div class="formulario_grupo" id="grupo_telefono">
+                <label for="telefono" class="label_telefono">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="telefono" id="telefono" placeholder="32258471">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="">El telefono solo debe contener numeros</p>
+            </div>
+            <!--terminos y condiciones-->
+            <div class="formulario_grupo">
+                <label for="label_form">
+                    <input type="checkbox" name="terminos">
+                    Acepte terminos y condiciones
+                </label>
+            </div>
+            <div class="formulario_memsaje" id="formulario_mensaje">
+                <p><i class="fas fa-exclamation-triangle"></i> <b>Error</b>
+                    Por favor rellenar el formulario completamente
+                </p>
+        </div>
+        <div class="formulario_grupo btn-enviar">
+            <button type="submit" class="formulario_btn">Enviar</button>
+            <p>Formulario enviado exitosamente</p>
+        </div>
+        </form>    
+        <marquee behavior="" direction="">Villada</marquee>                         
+    </main>
+    <script src="./script/script.js"></script>
+</body>
